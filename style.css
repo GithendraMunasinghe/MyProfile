@@ -31,7 +31,7 @@ body{
     cursor: default;
 }
 
-.navbar a{
+nav a{
     font-size: 18px;
     color: #fff;
     text-decoration: none;
@@ -40,8 +40,8 @@ body{
     transition: .3s;
 }
 
-.navbar a:hover,
-.navbar a.active{
+nav a:hover,
+nav a.active{
     color: #0ef;
 }
 
@@ -201,7 +201,8 @@ body{
     
 }
 .item h3{
-    line-height: 3rem;
+    color: #0ef;
+    line-height: 2rem;
 }
 
 .projects{
@@ -213,6 +214,7 @@ body{
     padding: 70px 10% 0;
     background-color: #323946;
 }
+
 
 .contact{
     position: relative;
@@ -247,11 +249,22 @@ body{
     height: 350px;
     border:medium;
     border-style: solid;
-    border-radius: 10%;
+    border-radius: 2%;
     border-color: #0ef;
     background-color: #1f242d;
-
 }
+
+
+.card-img-top{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-body{
+    margin-top: 50px;
+ }
+
 
 .btn1{
     display: inline-block;
@@ -266,14 +279,11 @@ body{
     font-weight: 600;
     transition: .5s ease;
     margin-left: 18%;
+    margin-top: 15%;
 }
 
 .btn1:hover{
     box-shadow: none;
- }
-
- .card-body{
-    margin-top: 200px;
  }
 
 
