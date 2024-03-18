@@ -270,9 +270,15 @@ nav a.active{
     margin-top: 50px;
  }
 
+.pbtn{
+
+    margin-top: 25px;
+    text-align: center;
+    justify-self: center;
+}
 
 .btn1{
-    display: inline-block;
+
     padding: 12px 28px;
     background: #0ef;
     border-radius: 40px;
@@ -283,8 +289,7 @@ nav a.active{
     text-decoration: none;
     font-weight: 600;
     transition: .5s ease;
-    margin-left: 30%;
-    margin-top: 15%;
+
 }
 
 .btn1:hover{
